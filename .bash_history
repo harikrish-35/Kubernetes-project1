@@ -42,3 +42,11 @@ git remote rm origin
 git remote remove origin
 git add .
 git remote -v
+ll
+git remote -v
+git push origin master
+cat Dockerfile
+git commit -m "expose added"
+git add .
+git commit -m "expose added"
+git push origin master
