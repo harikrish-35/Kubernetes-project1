@@ -50,3 +50,20 @@ git commit -m "expose added"
 git add .
 git commit -m "expose added"
 git push origin master
+git add .
+git commit -m "expose added"
+git push origin master
+systemctl start jenins
+ll
+systemctl status jenins
+systemctl status jenkins
+systemctl start jenkins
+cd var/lib/jenkins
+ll
+cd /var/lib/jenkins/workspace/
+ll
+cd kb-job-1/
+pwd
+ll
+ping 172.31.27.212
+systemctl start jenkins
